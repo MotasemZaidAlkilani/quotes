@@ -1,7 +1,7 @@
 # quotes
 application take one book author and his quote from list of authors , print the author and his quote.
 
-how to install in dependencies :
+**how to install in dependencies :**
 
 1- go to build gradle 
 
@@ -21,5 +21,5 @@ how to run the code :
 
 6-print the class 
 
-how to test the code :
+**how to test the code :**
 -using assertTrue check if the author and text are exist in the result 
