@@ -7,7 +7,7 @@ application take one book author and his quote from list of authors , print the 
 
 2- between the braces in dependencies ,put gson dependence
 
-how to run the code :
+**how to run the code :**
 
 1-read json file using fileReader
 
