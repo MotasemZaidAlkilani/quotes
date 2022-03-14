@@ -5,6 +5,7 @@ package quotes;
 import com.google.gson.Gson;
 
 import java.io.FileReader;
+import java.io.IOException;
 import java.util.Random;
 import org.junit.jupiter.api.Test;
 
@@ -23,5 +24,7 @@ class AppTest {
         assertTrue(list[rand_num].toString().contains("text"));
 
     }
-
+    @Test void testApi() throws IOException {
+    getAndSaveQuoteLocally first_quote=new getAndSaveQuoteLocally("http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en");
+    System.out.println(getAndSaveQuoteLocally.quotes);}
 }
